@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TestApp</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<style type="text/css">
+.inner a {
+  display: block;
+  width: 80px;
+  padding-left: 20px;
+  background-color: #CCFFCC;
+}
+
+.category {
+  margin-left: 20px;
+}
+.active {
+  background-color: #FFAAFF;
+}
+</style>
+
+<%= yield %>
+
+</body>
+</html>
