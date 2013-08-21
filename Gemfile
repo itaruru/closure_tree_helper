@@ -6,6 +6,7 @@ source "https://rubygems.org"
 gemspec
 
 gem 'closure_tree'
+gem 'jbuilder'
 gem 'rspec-rails'
 gem 'factory_girl_rails'
 
