@@ -1,11 +1,10 @@
 <%= render  partial: 'closure_tree_helper/tree_list',
             locals: {
               nodes: @tags,
-              root_tag: '<ul>',
               opts: {
                 active_class: 'active',
                 active_id: params[:id].to_i,
-                active_node_id: :id,
+                active_node_key: :id,
                 link_class: 'link'
               }
             }
